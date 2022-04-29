@@ -1,7 +1,6 @@
 .options-container {
   background-color: #021327;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -37,7 +36,6 @@
   border-radius: 25px;
   width: 35%;
   height: 15%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +43,6 @@
 
 .options-box p:hover {
   cursor: pointer;
-
   background-color: #021327;
   color: white;
 }
