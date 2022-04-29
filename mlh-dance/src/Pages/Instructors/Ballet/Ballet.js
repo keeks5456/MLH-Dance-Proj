@@ -1,23 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { getInstructors } from "../../../util.js";
+import React from "react";
 
-const Ballet = () => {
-  const [instructors, setInstructors] = useState(getInstructors(12));
-
-  const getBalletInstructors = () => {
-    let balletInstructors = [];
-    for (let i = 0; i < instructors.length; i++) {
-      if (instructors[i].style === "ballet") {
-        balletInstructors.push(instructors[i]);
-      }
-    }
-    setInstructors(balletInstructors);
-  };
-
-  useEffect(() => {
-    getBalletInstructors();
-  }, []);
-
+const Ballet = ({ instructors }) => {
   return (
     <div>
       {instructors &&

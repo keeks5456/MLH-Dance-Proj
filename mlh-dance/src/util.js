@@ -2,18 +2,18 @@ import { faker } from "@faker-js/faker";
 
 export const getInstructors = (number) => {
   let styles = [
-    "hip-hop",
-    "salsa",
-    "ballet",
-    "house",
-    "hip-hop",
-    "salsa",
-    "ballet",
-    "house",
-    "hip-hop",
-    "salsa",
-    "ballet",
-    "house",
+    "Hip Hop",
+    "Salsa",
+    "Ballet",
+    "House",
+    "Hip Hop",
+    "Salsa",
+    "Ballet",
+    "House",
+    "Hip Hop",
+    "Salsa",
+    "Ballet",
+    "House",
   ];
   const instructors = [];
   let i = 1;
