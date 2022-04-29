@@ -5,16 +5,16 @@ const Navagation = () => {
   return (
     <div className="nav-container">
       <Link className="link" to="/">
-        Home
+        <p className="nav-link">Home</p>
       </Link>
       <Link className="link" to="/about">
-        About
+        <p className="nav-link">About</p>
       </Link>
       <Link className="link" to="/options">
-        Dance Options
+        <p className="nav-link">Dance Options</p>
       </Link>
       <Link className="link" to="/instrutors">
-        Instructors
+        <p className="nav-link">Instructors</p>
       </Link>
     </div>
   );
