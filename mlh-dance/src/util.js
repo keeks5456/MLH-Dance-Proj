@@ -42,6 +42,5 @@ export const getInstructors = (number) => {
   for (let i = 0; i < number; i++) {
     instructors[i].style = styles[i];
   }
-  console.log(instructors);
   return instructors;
 };
