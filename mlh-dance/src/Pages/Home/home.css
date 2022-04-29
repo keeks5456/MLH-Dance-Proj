@@ -3,11 +3,73 @@
 } */
 
 .home-container {
+  display: flex;
+  flex-flow: column;
   background-color: #021327;
   height: 100vh;
   width: auto;
 }
 
 #h1-title {
+  margin-left: 10px;
+  font-size: 60px;
   color: white;
+}
+
+.home-button{
+  color: white;
+}
+
+.dance-image-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.dance-image{
+  max-width: auto;
+  max-height:500px;
+}
+
+.button-container{
+display: flex;
+justify-content: center;
+}
+
+.home-button{
+  text-align: center;
+  color: black;
+  font-size: large;
+  border-radius: 25px;
+  width: 20%;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #c4c4c4;
+}
+
+.home-button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #021327;
+  padding: 0.7rem;
+  border-radius: 25px;
+}
+
+.arrow-1 {
+  padding-left: 20px;
+  width:100px;
+  height:30px;
+  display: flex;
+}
+.arrow-1:before {
+  content: "";
+  background: currentColor;
+  width:15px;
+  clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+  animation: a1 1.5s infinite linear;
+}
+
+
+@keyframes a1 {
+  90%,100%{flex-grow: 1}
 }
