@@ -1,8 +1,27 @@
-.nav-container{
-  background-color: #021327;
- float: right;
+.nav-container {
+  background-color: #c4c4c4;
+  height: 9vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.link{
-  color:white;
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  border-radius: 25px;
+  width: 10%;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  background-color: #021327;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 25px;
 }
