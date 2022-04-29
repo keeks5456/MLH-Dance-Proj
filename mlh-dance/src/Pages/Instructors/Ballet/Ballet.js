@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getInstructors } from "./../../../util";
+import { getInstructors } from "../../../util.js";
 
 const Ballet = () => {
   const [instructors, setInstructors] = useState(getInstructors(12));
