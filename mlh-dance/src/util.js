@@ -1,19 +1,19 @@
-import { faker } from '@faker-js/faker';
+import { faker } from "@faker-js/faker";
 
-export const getInstructors = number => {
+export const getInstructors = (number) => {
   let styles = [
-    'Hip Hop',
-    'Salsa',
-    'Ballet',
-    'House',
-    'Hip Hop',
-    'Salsa',
-    'Ballet',
-    'House',
-    'Hip Hop',
-    'Salsa',
-    'Ballet',
-    'House',
+    "Hip Hop",
+    "Salsa",
+    "Ballet",
+    "House",
+    "Hip Hop",
+    "Salsa",
+    "Ballet",
+    "House",
+    "Hip Hop",
+    "Salsa",
+    "Ballet",
+    "House",
   ];
   const instructors = [];
   let i = 1;
@@ -21,12 +21,12 @@ export const getInstructors = number => {
     const name = faker.name.findName();
     const email = faker.internet.email();
     const phone = faker.phone.phoneNumber();
-    const image = faker.image.people(400, 600);
+    const image = faker.image.people(1234, 2345, true);
     let date = faker.date.between(
-      '2015-01-01T00:00:00.000Z',
-      '2022-01-01T00:00:00.000Z'
+      "2015-01-01T00:00:00.000Z",
+      "2022-01-01T00:00:00.000Z"
     );
-    date = date.getMonth() + '/' + date.getDay() + '/' + date.getFullYear();
+    date = date.getMonth() + "/" + date.getDay() + "/" + date.getFullYear();
 
     instructors.push({
       id: i,
