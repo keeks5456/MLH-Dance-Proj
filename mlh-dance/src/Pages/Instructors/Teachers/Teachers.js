@@ -1,7 +1,7 @@
 import React from "react";
 import "./teachers.css";
-
 const Teachers = ({ instructors }) => {
+  
   return (
     <div className="instructor-wrapper">
       {instructors &&

@@ -1,0 +1,49 @@
+.instructorList-container{
+  background-color: #021327;
+  height: 100%;
+  /* width: 100%; */
+  text-align: center;
+}
+
+.instructorList-box{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.instructorList-card{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-flow: column ;
+  background-color: #c4c4c4;
+  width: auto;
+  height: auto;
+  margin: 1em;
+  border-radius: 10px;
+  
+}
+
+.instructorList-title{
+  color: white;
+}
+
+.instructorList-img{
+  width: 13em;
+  height: 15em;
+
+}
+
+.instructorList-body{
+
+}
+
+.instructorList-name{
+
+}
+
+.instructorList-email{
+
+}
+
