@@ -15,7 +15,26 @@ i{
   padding-left: 10px;
 }
 
-.about-image{
-  height: 300px;
-  width: 100px;
+.image-container{
+   transform: translate(54em, 23%);
+  /* z-index: -1; */
+}
+.about-image-1{
+  height: auto;
+  width: 32vw;
+}
+
+
+
+.discription-container{
+  /* z-index: 1; */
+  transform: translate(33em, -86%);
+  display: flex;
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+  height: fit-content;
+  /* width: max-content; */
+  width: 34em;
+  padding: 1rem;
 }
