@@ -16,6 +16,7 @@ i{
 }
 
 .image-container{
+  width: fit-content;
    transform: translate(54em, 23%);
   /* z-index: -1; */
 }
