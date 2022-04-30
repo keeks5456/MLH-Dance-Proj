@@ -1,21 +1,21 @@
-import React from 'react';
-import './teachers.css';
+import React from "react";
+import "./teachers.css";
 
 const Teachers = ({ instructors }) => {
   return (
-    <div>
+    <div className="instructor-wrapper">
       {instructors &&
         instructors?.map((instructor, i) => {
           return (
-            <div key={i} className='instructor-container'>
-              <img className='instructor-img' src={instructor.image} alt='' />
+            <div key={i} className="instructor-container">
+              <img className="instructor-img" src={instructor.image} alt="" />
 
-              <div className='instructor-body'>
-                <div className='instructor-name'>
+              <div className="instructor-body">
+                <div className="instructor-name">
                   Name: &nbsp;
                   {instructor.name}
                 </div>
-                <div className='instructor-email'>
+                <div className="instructor-email">
                   Email: &nbsp;
                   {instructor.email}
                 </div>
