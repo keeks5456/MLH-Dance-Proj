@@ -22,7 +22,6 @@ const DanceOptions = () => {
 
   return (
     <div className="wrapper">
-      {/* <div className="options-container"> */}
       <div
         className={
           showInstructors
@@ -30,20 +29,22 @@ const DanceOptions = () => {
             : "options-container"
         }
       >
-        <div className="options-title">Whats Your Style?</div>
-        <div className="options-box">
-          <p onClick={(e) => getCurrentInstructors(e.target.innerHTML)}>
-            Ballet
-          </p>
-          <p onClick={(e) => getCurrentInstructors(e.target.innerHTML)}>
-            Hip Hop
-          </p>
-          <p onClick={(e) => getCurrentInstructors(e.target.innerHTML)}>
-            House
-          </p>
-          <p onClick={(e) => getCurrentInstructors(e.target.innerHTML)}>
-            Salsa
-          </p>
+        <div className="options-content">
+          <div className="options-title">Whats Your Style?</div>
+          <div className="options-box">
+            <p onClick={(e) => getCurrentInstructors(e.target.innerHTML)}>
+              Ballet
+            </p>
+            <p onClick={(e) => getCurrentInstructors(e.target.innerHTML)}>
+              Hip Hop
+            </p>
+            <p onClick={(e) => getCurrentInstructors(e.target.innerHTML)}>
+              House
+            </p>
+            <p onClick={(e) => getCurrentInstructors(e.target.innerHTML)}>
+              Salsa
+            </p>
+          </div>
         </div>
       </div>
       {showInstructors && (
