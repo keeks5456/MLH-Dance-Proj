@@ -20,6 +20,8 @@ const DanceOptions = () => {
     setCurrentInstructors(sortedInstructors);
   };
 
+  {console.log(instructors)}
+
   return (
     <div className="wrapper">
       <div
@@ -50,8 +52,10 @@ const DanceOptions = () => {
       {showInstructors && (
         <div className="instructorsContainer">
           <Teachers instructors={currentInstructors} />
+
         </div>
       )}
+        
     </div>
   );
 };

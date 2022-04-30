@@ -4,9 +4,8 @@
 }
 
 .about-header{
-  padding-right: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   flex-direction: row;
   color: white;
 }
@@ -35,7 +34,12 @@ i{
   color: white;
   background-color: black;
   height: fit-content;
-  /* width: max-content; */
   width: 34em;
   padding: 1rem;
+  border-radius: 10px;
+}
+
+.about-discription{
+ font-weight: bolder;
+ font-size: large;
 }
