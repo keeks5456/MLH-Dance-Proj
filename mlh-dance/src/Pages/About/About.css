@@ -1,0 +1,21 @@
+.about-container{
+  background-color: #021327 ;
+  height: 100vh;
+}
+
+.about-header{
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: white;
+}
+
+i{
+  padding-left: 10px;
+}
+
+.about-image{
+  height: 300px;
+  width: 100px;
+}

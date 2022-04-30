@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./Home.css";
 import { useNavigate } from "react-router-dom";
 const Home = () => {
   let navigate = useNavigate();
@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       <div className="button-container">
         <div className="home-button" onClick={() => navigate("/options")}>
-        Explore Different Styles Here<div class="arrow-1"></div>
+        Explore Different Styles Here <div class="arrow-1"></div>
         </div>
       </div>
     </div>
